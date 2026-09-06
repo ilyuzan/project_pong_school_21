@@ -4,7 +4,8 @@ void print_screen(int ball_x, int ball_y, int left_y, int right_y, int score_l, 
 int update_paddle(int current_y, char input, char up_key, char down_key, int height);
 int check_victory(int score_left, int score_right);
 
-int main(void) {
+int main(void) 
+{
     int width = 80, height = 25, left_paddle_y = 12, right_paddle_y = 12, ball_x = 40, ball_y = 12,
      ball_dx = 1, ball_dy = 1, score_left = 0, score_right = 0, game_running = 1;
 
